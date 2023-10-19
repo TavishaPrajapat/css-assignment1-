@@ -1,0 +1,92 @@
+/* Importing fonts from Google Fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
+/* styles.css */
+body {
+    background-image: url('https://img.freepik.com/premium-vector/guitar-ukulele-with-music-notes-song-melody-tune-3d-realistic-vector_67590-1217.jpg?w=826');
+    background-size: cover; /* This will make the image cover the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed;/* Fix the background image while scrolling */
+    font-family: 'Pacifico', cursive;/* Set the font for the body text */
+    background-color: #89ddde;/* Background color */
+    margin: 0;/* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+/* Define CSS classes for the emotional associations */
+.happy { color: green; }
+.excited { color: orange; }
+.joyful { color: yellow; }
+.energetic { color: red; }
+.sad { color: blue; }
+.confused { color: purple; }
+.nervous { color: gray; }
+.rejected { color: brown; }
+.suspenseful { color: darkblue; }
+.terrified { color: black; }
+.romantic { color: red; }
+.passionate { color: darkred; }
+.content { color: rgb(90, 189, 90); }
+.carefree { color: cyan; }
+.scared { color: gray; }
+.anxious { color: rgb(125, 125, 125); }
+.fearful { color: darkgray; }
+.surprise { color: magenta; }
+.hopeful { color: rgb(216, 112, 199); }
+
+/* Header styles */
+header {
+    font-family: 'Satisfy', cursive;/* Set the font for the header text */
+    font-size: 20px;/*font-size*/
+    background-color: #89ddde;/*this is for adding background color*/
+    color: #0e0c36;/*this is color for text*/
+    text-align: center;/*this aligns the text center*/
+    padding: 20px;/*this is for adding padding */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
+}
+
+header:hover {
+    background-color: #0e0c36; /* Change background color on hover */
+    color: #89ddde; /* Change text color on hover */
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;/* Set the maximum width for the main content */
+    margin: 0 auto;/* Center the main content horizontally on the page */
+    padding: 20px;/* Add padding around the main content */
+}
+
+/* Heading 1 (h1) styles */
+h1 {
+    font-family: 'Satisfy', cursive;/* Set the font for h1 elements */
+}
+
+/* Heading 2 (h2) styles */
+h2 {
+    color: #8b5074; /* Example color for emphasis */
+    font-size: 30px;/* Set the font size for h2 elements */
+    line-height: 1.5;/* Set the line height for better spacing */
+    text-align: center; /* Center the text within h2 elements */
+}
+
+/* Lyrics section styles */
+#lyrics {
+    padding: 20px;/* Add padding to the lyrics section */
+    background-color: rgba(206, 202, 202, 0.7);/* Background color with transparency */
+    border-radius: 20px; /* Rounded corners for the lyrics section */
+    font-size: 30px;/* Set the font size for lyrics */
+    line-height: 1.5;/* Set the line height for better readability */
+    text-align: center;/* Center the text within the lyrics section */
+    transition: box-shadow 0.3s; /* Smooth transition for box shadow */
+}
+
+/* Add a box shadow to the lyrics section on hover */
+#lyrics:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);/* Add a box shadow with specified properties on hover */
+}
+
+/* Paragraph (p) styles */
+p{
+    font-size: 30px;/* Set the font size for paragraphs */
+    line-height: 1.5;/* Set the line height for better spacing within paragraphs */
+    text-align: center; /* Center the text within paragraphs */
+}
